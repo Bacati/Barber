@@ -81,7 +81,15 @@ window.onscroll = function() {myFunction()};
 function myFunction() {
   if (document.documentElement.scrollTop > 80) {
     document.getElementById("myP").className = "contenu3";
+    document.getElementById("logo").className = "logoscroll";
+    document.getElementById("imgScroll").className = "imgScrollac";
+    document.getElementById("navbarscroll").className = "navbarscroll";
+    document.getElementById("pageScoll").className = "page";
   } else {
+    document.getElementById("navbarscroll").className = "navbar2";
     document.getElementById("myP").className = "";
+    document.getElementById("logo").className = "logo";
+    document.getElementById("imgScroll").className = "imgScroll"
+    document.getElementById("pageScoll").className = "pageScroll";
   }
 }
